@@ -13,6 +13,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f9fb;
 }
-
+.main{
+  padding-left: 260px;
+}
 

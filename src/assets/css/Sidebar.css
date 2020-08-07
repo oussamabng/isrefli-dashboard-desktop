@@ -1,0 +1,111 @@
+.sidebar{
+    height: 100%;
+    background: white;
+    width: 260px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 20;
+    -moz-box-shadow:    -3px 0 5px 0 #555;
+    -webkit-box-shadow: -3px 0 5px 0 #555;
+    box-shadow:         -3px 0 5px 0 #555;
+}
+.sidebar .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background: var(--primaryColor);
+    padding: 1rem;
+}
+.sidebar .header .image{
+    width: 80px;
+    height: 80px;
+}
+.sidebar .header > h1{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+.sidebar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem 0;
+    width: 100%;
+    padding: 0 1rem;
+}
+.sidebar ul li a{
+    color: black;
+}
+.sidebar ul li{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    margin: .35rem 0;
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+}
+.sidebar ul li.active,.sidebar ul li:hover{
+    background: #ff67594b;
+    color: var(--primaryColor);
+}
+.sidebar ul li.active,.sidebar ul li:hover a{
+    color: var(--primaryColor);
+}
+.sidebar ul li.active,.sidebar ul li.active a {
+    color: var(--primaryColor);
+}
+.sidebar ul li.active .icon,.sidebar ul li:hover .icon{
+    color: var(--primaryColor);
+}
+.sidebar ul li .icon{
+    margin: 0;
+    font-size: 1.2em;
+    margin-right: 1rem;
+    font-weight: 100!important;
+    color: black;
+}
+.logout{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    margin: .35rem 0;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    position: absolute;
+    bottom: 5%;
+    cursor: pointer;
+}
+.logout:hover{
+    background: #ff67594b;
+    color: var(--primaryColor);
+}
+.logout:hover .icon{
+    color: var(--primaryColor);
+}
+.logout .icon{
+    margin: 0;
+    font-size: 1.2em;
+    margin-right: 1rem;
+    font-weight: 100!important;
+    color: black;
+}

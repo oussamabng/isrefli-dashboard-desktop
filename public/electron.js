@@ -14,10 +14,6 @@ function createWindow () {
     minHeight: 700,
     minWidth: 1000,
   })
-
-  // and load the index.html of the app.
-  win.loadFile('index.html')
-
   // Open the DevTools.
   win.webContents.openDevTools()
 
@@ -85,6 +81,7 @@ app.on('window-all-closed', () => {
     app.quit()
   }
 })
+
 
 app.on('activate', () => {
   // On macOS it's common to re-create a window in the app when the

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="474.031" height="355" viewBox="0 0 474.031 355">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #2fd3d3;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_2" data-name="Rounded Rectangle 2" class="cls-1" d="M975.485,798.39l261.225-78.168a16.121,16.121,0,0,1,20.05,10.872l0.55,1.822a16.128,16.128,0,0,1-10.79,20.1L985.3,831.183a16.128,16.128,0,0,1-20.053-10.872L964.7,818.49A16.131,16.131,0,0,1,975.485,798.39Z" transform="translate(-783.969 -540)"/>
+  <path id="Rounded_Rectangle_2_copy" data-name="Rounded Rectangle 2 copy" class="cls-1" d="M813.865,595.411L989.3,805.429a16.191,16.191,0,0,1-1.973,22.761l-1.451,1.219a16.068,16.068,0,0,1-22.684-2.033L787.757,617.358a16.191,16.191,0,0,1,1.974-22.761l1.45-1.219A16.068,16.068,0,0,1,813.865,595.411Z" transform="translate(-783.969 -540)"/>
+  <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-1" d="M1205.87,540L1043.52,588.58l10.34,34.577,146.3-43.778ZM881.156,637.163L1043.52,588.58l10.34,34.577-146.3,43.778Z" transform="translate(-783.969 -540)"/>
+  <path id="Shape_1_copy_2" data-name="Shape 1 copy 2" class="cls-1" d="M1199.75,607.334l-137.44,41.127,10.34,34.577,123.85-37.06ZM924.862,689.588l137.448-41.127,10.34,34.577L948.8,720.1Z" transform="translate(-783.969 -540)"/>
+  <path id="Shape_1_copy_3" data-name="Shape 1 copy 3" class="cls-1" d="M1193.62,674.671L1081.1,708.342l10.34,34.577,101.4-30.342ZM968.569,742.013L1081.1,708.342l10.34,34.577-101.4,30.341Z" transform="translate(-783.969 -540)"/>
+  <path class="cls-2" d="M1021.55,830.407a32.989,32.989,0,1,1-22.14,41.06A32.981,32.981,0,0,1,1021.55,830.407Z" transform="translate(-783.969 -540)"/>
+  <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-3" cx="377.861" cy="282.718" r="28.05"/>
+</svg>

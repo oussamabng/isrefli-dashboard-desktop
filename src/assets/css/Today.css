@@ -1,0 +1,19 @@
+.today .stats .blue .apexcharts-datalabel-label,.today .stats .blue .apexcharts-datalabel-value{
+    fill: rgb(78, 230, 179)!important;
+    font-size: 14px;
+    font-weight: 500;
+}
+.today .stats .red .apexcharts-datalabel-label,.today .stats .red .apexcharts-datalabel-value{
+    fill: var(--primaryColor)!important;
+    font-size: 14px;
+    font-weight: 500;
+}
+.today .stats .red .apexcharts-radialbar-area.apexcharts-radialbar-slice-0{
+    stroke: var(--primaryColor);
+}
+.today .stats .blue .apexcharts-radialbar-area.apexcharts-radialbar-slice-0{
+    stroke: rgb(78, 230, 179);
+}
+.apexcharts-toolbar{
+    display: none;
+}

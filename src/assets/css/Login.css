@@ -1,0 +1,110 @@
+.isrefli_login{
+    background: var(--primaryColor);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+    padding: 4rem 2rem;
+}
+.form_login{
+    background: white;
+    z-index: 10;
+    width: 70%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form_login .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    
+}
+.form_login .header h1{
+    color: var(--primaryColor);
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+}
+.form_login .header p{
+    color: black;
+    font-size: 14px;
+    margin: 1rem 0;
+    font-weight: 500;
+    text-align: center;
+}
+.form_login .header .image{
+    width: 100px;
+    height: 100px;
+}
+.form_login .ui.form{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_login .ui.form .field{
+    min-width: 260px;
+    border:none;
+    margin: .75rem 0;
+}
+.form_login .ui.form .field .input{
+    border-radius: 4px;
+    border:none;
+}
+.form_login .ui.form .field .input input{
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.808);
+    font-size: 14px;
+    font-weight: 400;
+    padding: .7rem 1.25rem;
+    outline: none;
+    box-shadow: none;
+}
+.form_login .ui.form .field .input input:focus,.form_login .ui.form .field .input input:active{
+    border: 1px solid rgba(0, 0, 0, 0.808);;
+    outline: none;
+    box-shadow: none;
+}
+.form_login .ui.form .button{
+    font-size: 14px;
+    height: 40px;
+    color: white;
+    background-color: var(--primaryColor);
+    border-radius: 4px;
+    font-weight: 700;
+    padding: .75rem 2rem;
+    margin: 1rem 0;
+}
+#eye_password{
+    position: absolute;
+    right: 4%;
+    top: 50%;
+    transform: translate(0,-70%);
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.568);
+}
+.form_login .ui.form .field.error .input{
+    color: rgba(0,0,0,.87);
+}
+.form_login .ui.form .field.error .input input{
+    border: 1px solid var(--primaryColor);
+    background: white;
+    color: var(--primaryColor);
+}
+.form_login .ui.form .field.error .input input::placeholder{
+    color: var(--primaryColor);
+    opacity: 1;
+}
+.form_login .ui.form .field.error .icon{
+    color: var(--primaryColor);
+    opacity: 1;
+}
