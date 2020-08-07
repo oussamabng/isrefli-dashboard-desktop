@@ -2,7 +2,16 @@
   "name": "isrefli-desktop-app",
   "version": "0.1.0",
   "private": true,
-  "main":"public/electron.js",
+  "main": "public/electron.js",
+  "description": "electron app",
+  "author": "oussama bengoudifa",
+  "build": {
+    "appId": "isrefli-dashboard",
+    "win":{
+      "icon":"build/logo192.png"
+    }
+  },
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -11,6 +20,7 @@
     "electron-is-dev": "^1.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {
@@ -18,9 +28,9 @@
     "react-build": "react-scripts build",
     "react-test": "react-scripts test",
     "react-eject": "react-scripts eject",
-    "electron-build":"electron-builder",
-    "build":"npm run react-build && npm run electron-build",
-    "start" : "concurrently \"cross-env BROWSER=none npm run react-start\" \"wait-on http://localhost:3000 && electron .\""
+    "electron-build": "electron-builder",
+    "build": "npm run react-build && npm run electron-build",
+    "start": "concurrently \"cross-env BROWSER=none npm run react-start\" \"wait-on http://localhost:3000 && electron .\""
   },
   "eslintConfig": {
     "extends": "react-app"

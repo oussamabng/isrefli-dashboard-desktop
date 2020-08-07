@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: assets
+files:
+  - filter:
+      - build/**/*
+extraMetadata:
+  main: build/electron.js
+appId: isrefli-dashboard
+extends: react-cra
+electronVersion: 9.1.2
