@@ -4,8 +4,10 @@ import axios from "axios";
 
 //? import css
 import "../../assets/css/ProductTable.css";
+import { useHistory } from 'react-router-dom';
 
 const ProductTable = () => {
+    const history = useHistory();
     const [data,setData] = useState([]);
     const [isLoading,setIsLoading] = useState(false);
     const [count,setCount] = useState(0);
@@ -101,6 +103,9 @@ const ProductTable = () => {
         if (!searchBtn){
             setSearchBtn(true);
         }
+    }
+    const handleAddProduct = ()=>{
+        history.push('/add/product');
     }
     return (
         <div className="project_table">
@@ -200,6 +205,7 @@ const ProductTable = () => {
                                     className="primary_btn"
                                     floated='right'
                                     size='small'
+                                    onClick={handleAddProduct}
                                 >
                                     Ajouter un produit
                                 </Button>

@@ -33,7 +33,10 @@
     "react-dropzone-uploader": "^2.11.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "semantic-ui-react": "^1.1.1"
+    "react-text-mask": "^5.4.3",
+    "semantic-ui-react": "^1.1.1",
+    "sweetalert": "^2.1.2",
+    "text-mask-addons": "^3.8.0"
   },
   "scripts": {
     "react-start": "react-scripts start",

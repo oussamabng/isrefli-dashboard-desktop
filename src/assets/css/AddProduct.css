@@ -1,0 +1,84 @@
+.add_product{
+    padding: 2rem;
+}
+.add_product > h1{
+    font-size: 20px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.add_product .form_add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add_product .form_add .form{
+    background: white;
+    padding: 4rem 6rem;
+    border-radius: 4px;
+    margin:2rem 0;
+}
+.add_product .form_add .input{
+    min-width: 300px;
+    height: 36px;
+    border-radius: 5px;
+}
+.input_currency{
+    min-width: 300px!important;
+    height: 36px!important;
+    border-radius: 5px!important;
+}
+.add_product .form_add .form .fields{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+}
+.add_product .form_add .form .fields .field{
+    margin: 0 1rem;
+}
+.add_product .form_add .form .fields .field > .checkbox{
+    margin-top: 1rem;
+}
+.field > .ui.label{
+    display: block;
+    color: rgba(0,0,0,.87);
+    font-size: .92857143em;
+    font-weight: 700;
+    text-transform: none;
+    background: transparent;
+    padding: 0;
+    margin-left: 2px;
+    margin-bottom: 6px;
+}
+.ui.fluid.dropdown{
+    min-width: 300px!important;
+    height: 36px!important;
+    border-radius: 5px!important;
+    margin:0 ;
+    margin-top: 10px!important;
+}
+.action_btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.action_btn .button{
+    background: var(--primaryColor);
+    color: white;
+    padding: .75rem 2rem;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.action_btn .button:hover,.action_btn .button:active,.action_btn .button:focus{
+    background: var(--primaryDarkColor);
+    color: white;
+}
+.swal-overlay{
+    padding-left: 260px;
+}

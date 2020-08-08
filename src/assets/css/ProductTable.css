@@ -22,26 +22,31 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
     padding: 1rem;
     margin: 0;
 }
 .project_table .header > p{
     margin: 0;
     font-weight: 600;
+    margin-left: 1rem!important;
+
 }
 .project_table .header .right{
     margin-left: auto;
 }
 .project_table .header .right .input{
-    margin: 0 1rem;
+    margin: 1rem 1rem;
 }
 .project_table .header .right .dropdown{
-    margin-left: 1rem;
+    margin-left: 1rem!important;
+    margin: 1rem 0;
 }
 .project_table .header .right  .button{
-    margin-left: 1rem;
+    margin-left: 1rem!important;
     background: var(--secondaryColor);
     color: white;
+    margin: 1rem 0;
 }
 .project_table .header .right .search{
     margin-left: 1rem;
