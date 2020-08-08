@@ -35,8 +35,7 @@ const Login = ()=>{
             });
             intance.get("/rest-auth/user/")
             .then(res=>{
-                console.log(res)
-                history.push("/dashboard");
+                history.push("/product");
             })
             .catch(err=>{
                 setLoadForm(true);

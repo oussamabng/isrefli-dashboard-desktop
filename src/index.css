@@ -18,4 +18,21 @@ body {
 .main{
   padding-left: 260px;
 }
-
+.ui.segment{
+  min-height: 100px;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+}
+.primary_btn{
+  height: 40px!important;
+  border-radius: 4px!important;
+  font-size: 14px!important;
+  border: 1px solid var(--primaryColor)!important;
+  background: white!important;
+  color: var(--primaryColor)!important;
+}
+.primary_btn:hover{
+  background: var(--primaryColor)!important;
+  color: white!important;
+}

@@ -1,0 +1,54 @@
+.info{
+    color: black!important;
+    background: white!important;
+}
+.delete{
+    color: white!important;
+    background: var(--primaryColor)!important;
+}
+.update{
+    color: white!important;
+    background: rgb(240, 154, 55)!important;
+}
+.icon-btn{
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1)!important;
+    margin: 0 .5rem!important;
+}
+.project_table .segment{
+    min-height: 800px;
+}
+.project_table .header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+}
+.project_table .header > p{
+    margin: 0;
+    font-weight: 600;
+}
+.project_table .header .right{
+    margin-left: auto;
+}
+.project_table .header .right .input{
+    margin: 0 1rem;
+}
+.project_table .header .right .dropdown{
+    margin-left: 1rem;
+}
+.project_table .header .right  .button{
+    margin-left: 1rem;
+    background: var(--secondaryColor);
+    color: white;
+}
+.project_table .header .right .search{
+    margin-left: 1rem;
+    background: var(--primaryColor);
+    color: white;
+}
+.project_table .header .right .input .icon{
+    background: transparent;
+    color: rgba(0, 0, 0, 0.596);
+}

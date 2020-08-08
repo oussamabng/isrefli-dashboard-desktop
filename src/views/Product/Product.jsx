@@ -1,13 +1,14 @@
 import React from 'react';
 
 import Sidebar from "../../components/Sidebar/Sidebar";
+import ProductTable from "../../components/ProductTable/ProductTable";
 
 const Product = ()=>{
     return (
         <>
         <Sidebar active="product" />
         <div className="main">
-            <h1>Gestion des produits</h1>
+            <ProductTable />
         </div>
         </>
     )

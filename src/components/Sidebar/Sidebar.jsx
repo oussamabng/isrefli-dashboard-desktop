@@ -58,12 +58,10 @@ const Sidebar = (props) => {
                     <Icon name="th list" />
                     <p>Gestion des commandes</p>
                 </li>
-                <li className={activeItem === "product" ?"active":""}>
+                <li className={activeItem === "product" ?"active":""} onClick={()=>history.push("/product")}>
                     <Icon name="sitemap" />
                     <p>
-                        <Link to="/product" >
                         Gestion des produits
-                        </Link>
                     </p>
                 </li>
                 <li className={activeItem === "fournisseur" ?"active":""}>
